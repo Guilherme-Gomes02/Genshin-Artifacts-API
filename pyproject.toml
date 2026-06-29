@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [project]
 name = "jogos"
 version = "0.1.0"
@@ -20,3 +21,27 @@ build-backend = "poetry.core.masonry.api"
 dev = [
     "ipykernel (>=7.3.0,<8.0.0)"
 ]
+=======
+[project]
+name = "jogos"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Guilherme Gomes"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "streamlit (>=1.58.0,<2.0.0)",
+    "requests (>=2.34.2,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.3.0,<8.0.0)"
+]
+>>>>>>> 8b267be8a19613fdb62777c76160d81759f3b190
