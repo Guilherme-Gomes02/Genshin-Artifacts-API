@@ -14,7 +14,7 @@ def genshin_artefatos():
             "data": data,
             "ok": True 
                 }
-    
+    o
     except requests.exceptions.Timeout:
         return {
             "ok":False,
