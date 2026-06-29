@@ -37,8 +37,6 @@ artefatos = genshin_artefatos()
 
 st.subheader("Lista de artefatos")
 
-print("TESTE ALTERAÇÃO")
-
 if artefatos["ok"]:
     for artefato in artefatos["data"]:
         st.markdown(f"- {artefato}")
